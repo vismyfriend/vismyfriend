@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular);
+@import url(../vendor/normalize.css);
+
+.body {
+    padding-left: 60px;
+    background-color:#82AEB6 ;
+    background-image: url(../images/Peter.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    height: 100vh;
+}
+.header__button {
+    width: 244px;
+    height: 78px;
+    background: #FFF27B;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-family: 'neucha';
+    font-size: 24px;
+    margin-top: 14px;
+    /* cmd + shift + p вставка ссылки на гугл шрифт */
+}
+.buttons-container {
+    margin: 100px 0px 28px 14px;
+    width: 451px;
+}
+.level {
+    width: 75px;
+    height: 65px;
+    left: 72px;
+    top: 209px;
+    background: linear-gradient(143.84deg, rgba(237, 193, 193, 0.008) 14.48%, rgba(254, 254, 254, 0.2) 49.03%, rgba(162, 40, 40, 0.2) 82.47%), #AFD73E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'neucha';
+    font-size: 24px;
+    margin-right: 14px;
+
+
+}
+.level_5 {
+    margin-right: 0;
+}
+
+h3 {
+    font-family: 'neucha';
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container {
+padding: 13px 30px ;
+box-sizing: border-box;
+    width: 480px;
+    background: #D9D9D9;
+    border-radius: 35px;
+    font-family: 'neucha';
+    font-size: 24px;
+    text-align: center;
+    /* Show this to andrew - добавил шрифт ко всему контейнеру - можно удалить теперь у кнопок и код сократится! Молодец я!? =)*/
+}
+
+.container__next-question {
+    width: 240px;
+    height: 56px;
+    left: 96px;
+    top: 533px;
+    background: linear-gradient(143.84deg, rgba(237, 193, 193, 0.008) 14.48%, rgba(254, 254, 254, 0.2) 49.03%, rgba(162, 40, 40, 0.2) 82.47%), #AFD73E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'neucha';
+    font-size: 24px;
+
+}
+
+.container__example {
+    width: 120px;
+    height: 56px;
+    left: 226px;
+    top: 533px;
+    background: linear-gradient(143.84deg, rgba(237, 193, 193, 0.008) 14.48%, rgba(254, 254, 254, 0.2) 49.03%, rgba(162, 40, 40, 0.2) 82.47%), #9AB4F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    font-family: 'neucha';
+    font-size: 24px;
+
+}
+.container__question {
+    color: white;
+    font-size: 30px;
+}
+.container__example-text {
+    color: white;
+}
